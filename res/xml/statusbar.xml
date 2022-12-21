@@ -13,10 +13,11 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
+
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:title="@string/statusbar_title"
-    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/statusbar_title">
 
    <!-- Network Traffic -->
    <com.p404.support.preferences.SystemSettingMasterSwitchPreference
@@ -25,4 +26,11 @@
             android:summary="@string/network_traffic_state_summary"
             android:defaultValue="false" />
 
+    <!-- Statusbar Icon Manager -->
+    <Preference
+        android:key="icon_manager"
+        android:title="@string/icon_manager_title"
+        android:summary="@string/icon_manager_summary">
+        <intent android:action="com.android.settings.action.STATUS_BAR_TUNER" />
+    </Preference>
 </PreferenceScreen>
