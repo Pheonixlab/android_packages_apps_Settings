@@ -160,4 +160,8 @@
     <string name="network_traffic_upload">Upload</string>
     <string name="network_traffic_autohide_threshold_title">Auto-hide threshold</string>
     <string name="network_traffic_refresh_interval_title">Refresh interval</string>
+
+    <!-- Colored icons -->
+    <string name="statusbar_icons_style">Colored Statusbar Icons</string>
+    <string name="statusbar_icons_style_summary">Choose the style of your statusbar icons (requires SystemUI restart)</string>
 </resources>
