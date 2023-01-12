@@ -24,4 +24,10 @@
         android:title="@string/quick_settings_quick_pull_down_title"
         android:summary="@string/quick_settings_quick_pull_down_summary"
         android:defaultValue="true" />
+
+    <co.p404.framework.preference.SystemSettingSwitchPreference
+        android:key="disable_ripple_effect"
+        android:title="@string/disable_fingerprint_ripple_effect_title"
+        android:summary="@string/disable_fingerprint_ripple_effect_summary"
+        android:defaultValue="false" />
 </PreferenceScreen>
